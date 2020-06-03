@@ -40,7 +40,7 @@ jobs:
     
     # Installing Surge
     - name: Install Surge
-      run: nmp install --global surge
+      run: npm install -g surge
     
     # Deploying Surge
     - name: Deploy Surge
